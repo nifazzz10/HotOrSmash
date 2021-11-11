@@ -1,0 +1,76 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  .wrapper{
+    padding: 2%;
+    margin: 0% auto;
+  border-radius: 7px;
+
+
+    width: auto;
+    background-color:#FF2E63;
+    color: aliceblue;
+
+}
+body{
+  background-color: #FFDE7D;
+  
+}
+
+.text-center{
+  text-align: center;
+}
+.head {
+  list-style-type: none;
+}
+
+.head ul li {
+  display: inline;
+  
+  padding: 1%;
+}
+.head ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+
+  
+}
+.head ul li a:hover {
+  color: rgb(216, 110, 110);
+}
+.responsive {
+  width: 60%;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  height: auto;
+  align-items: center;
+  max-width: 400px;
+
+}
+.text{
+  font-weight: bold;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
